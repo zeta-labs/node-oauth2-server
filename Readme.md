@@ -172,7 +172,7 @@ Note: see https://github.com/thomseddon/node-oauth2-server/tree/master/examples/
  - *object* **user**
      - The user retrieved from storage or falsey to indicate an invalid user
      - Saved in `req.user`
-     - Must contain the following keys:
+     - Must contain the following keys::
          - *string|number* **id**
 
 ### Required for `refresh_token` grant type
